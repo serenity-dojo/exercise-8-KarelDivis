@@ -42,6 +42,7 @@ public class WhenWorkingWithSets {
     public void addAValueTwice() {
         Set<String>colors = new HashSet<>(Set.of("red", "green", "blue"));
 
+
         // TODO: Read the following code, and assign the correct value to expectedSize to make the test pass
         colors.add("red");
         colors.add("yellow");
